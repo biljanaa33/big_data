@@ -1,0 +1,7 @@
+dask[dataframe]
+pandas
+pyarrow
+tables
+fastparquet
+jupyter
+ipykernel
