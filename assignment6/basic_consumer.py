@@ -1,7 +1,11 @@
+"""
+    This script acts as a consumer, reading raw NYC taxi trip events.
+    It subscribes to the raw taxi events topic, continuously reads incoming messages,
+    and prints trip information.
+"""
+
 import json
-
 from confluent_kafka import Consumer
-
 from config import *
 
 consumer = Consumer(
